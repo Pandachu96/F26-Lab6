@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Zebang Yang
+# Date: 11/04/2026
 # Purpose: Create Sets.
 # Usage: ./lab6a.py
 
