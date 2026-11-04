@@ -9,7 +9,16 @@
 # TO DO 1: Complete the functions below.
 
 def buildtheSet(divisor):
-    # Complete this function
+    '''
+    Build a set of numbers from 0 to 100 that are divisible by the given divisor.
+    @param divisor: The number to divide by.
+    @return: A set of numbers in the range 0-100 that are divisible by the divisor.
+    '''
+    num_set = set()
+    for num in range(101):
+        if num % divisor == 0:
+            num_set.add(num)
+
 def main():
 
     s3 = buildtheSet(3)
@@ -30,3 +39,5 @@ def main():
 main()
 
 # TO DO 2: Run the script. Take screenshot of only buildtheSet() function. No need to capture main() in the screenshot. 
+if __name__ == "__main__":
+    main()
