@@ -19,6 +19,8 @@ def buildtheSet(divisor):
         if num % divisor == 0:
             num_set.add(num)
 
+    return num_set
+
 def main():
 
     s3 = buildtheSet(3)
