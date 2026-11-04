@@ -39,7 +39,3 @@ def main():
     print("s11: ", s11)
 
 main()
-
-# TO DO 2: Run the script. Take screenshot of only buildtheSet() function. No need to capture main() in the screenshot. 
-if __name__ == "__main__":
-    main()
